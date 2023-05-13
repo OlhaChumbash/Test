@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Wix Madefor Text', sans-serif;
+    color:  #636364;
+   
+     }
+
+
+
+  .container {
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #DDE4F3;
+    
+    
+  }
+
+  .login-form {
+    display: flex;
+    flex-flow: column;  
+    border-radius: 20px;
+    padding: 33px;
+    /* max-width: 400px; */
+    width: 310px;
+    background-color: #F0F7FD;
+    height: 90%;
+   
+  }
+
+.content{
+  display: flex;
+  padding-top: 7px;
+ }
+
+  .form-group {
+    margin-bottom: 30px;
+    background-color:   #FEFEFE;
+    border-radius: 15px;    
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+  }
+
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 60%;
+    padding: 5px;
+    border: none;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: #3E4583;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .button {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #3E4583;
+    border: none; 
+    display: flex;
+    justify-content: center;
+    padding: 15px;  
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    }
+
+  .logo {
+      display: flex;
+      justify-content: center;
+      padding-top: 15px;
+      margin-bottom: 50px;
+    }
+    
+    a {
+      text-decoration: none;
+      color:  #636364;
+      }
+
+    .hrefs{
+      display: flex;
+      justify-content: space-between;
+      font-size: small;
+    }
+
+    @media (max-width: 600px) {
+      .login-form {
+        width: 100%;
+      }}
